@@ -17,7 +17,18 @@
       "description": "A secret key for verifying the integrity of signed cookies.",
       "generator": "secret",
       "required": true
-    }
+    },
+    "AUTH0_CLIENT"{
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret",
+      "required": true
+  },
+    "AUTH0_SECRET"{
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret",
+      "required": true
+ }
+    
   },
   "scripts": {
     "postdeploy": "rake db:migrate"
